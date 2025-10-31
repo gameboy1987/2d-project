@@ -8,7 +8,7 @@ public class TopDownMovement : MonoBehaviour
     [SerializeField] private float runSpeed = 10f;
 
     private float currentSpeed;
-    [HideInInspector] public Vector2 movement;
+    private Vector2 movement;
     private Rigidbody2D rb2D;
 
     [HideInInspector] public Vector2 direction;
@@ -16,7 +16,9 @@ public class TopDownMovement : MonoBehaviour
     void Awake()
     {
         rb2D = GetComponent<Rigidbody2D>();
+
         currentSpeed = walkSpeed;
+        direction = Vector2.down;
     }
 
     // Update is called once per frame
