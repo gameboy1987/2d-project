@@ -313,7 +313,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 8.47
+  orthographic size: 8.3
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1057,6 +1057,7 @@ GameObject:
   - component: {fileID: 1747427423}
   - component: {fileID: 1747427422}
   - component: {fileID: 1747427424}
+  - component: {fileID: 1747427425}
   m_Layer: 3
   m_Name: Enemy
   m_TagString: Untagged
@@ -1181,6 +1182,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.9567986, y: 6.454091}
   m_EdgeRadius: 0
+--- !u!114 &1747427425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1747427421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03a1a36ee49421d4c8c9e0f6ee34963b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 679766079}
+  speed: 5
 --- !u!1 &1901219722
 GameObject:
   m_ObjectHideFlags: 0
