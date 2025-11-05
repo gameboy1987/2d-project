@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      enemychicken_0: 3751007093738889729
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 8a4950fca83889f498fa3f6e5dcdd1a6
+guid: a59781f780555a54f8560c59f5451a53
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1759166687707343796
-    second: chicken.MostlyFinished_0
+      213: 4689240166119133576
+    second: pixilart-sprite_0
+  - first:
+      213: 4521018998857404175
+    second: pixilart-sprite_1
+  - first:
+      213: -4621546931983276131
+    second: pixilart-sprite_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,12 +132,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: chicken.MostlyFinished_0
+      name: pixilart-sprite_0
       rect:
         serializedVersion: 2
-        x: 4
+        x: 5
         y: 0
-        width: 323
+        width: 322
         height: 497
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -141,8 +147,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c44d08ec73f2697e0800000000000000
-      internalID: -1759166687707343796
+      spriteID: 88156002617831140800000000000000
+      internalID: 4689240166119133576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixilart-sprite_1
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 242
+        width: 23
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0f00b973d2edbe30800000000000000
+      internalID: 4521018998857404175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixilart-sprite_2
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 0
+        width: 329
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9727562d87fcdfb0800000000000000
+      internalID: -4621546931983276131
       vertices: []
       indices: 
       edges: []
@@ -161,7 +211,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      chicken.MostlyFinished_0: -1759166687707343796
+      pixilart-sprite_0: 4689240166119133576
+      pixilart-sprite_1: 4521018998857404175
+      pixilart-sprite_2: -4621546931983276131
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
